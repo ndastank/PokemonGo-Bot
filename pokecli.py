@@ -143,7 +143,7 @@ def main():
                     else:
                         print "Warning: A new pokemon API version is found.\n Run following command to get latest update: `pip install -r requirements.txt --upgrade` \n You have chose to bypass warning, bot will continue running."
                         yn = True
-                        time.sleep(5)
+                        time.sleep(10)
                 if not yn:
                     sys.exit(1)
 
